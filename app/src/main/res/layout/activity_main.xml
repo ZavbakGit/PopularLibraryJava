@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".task2.view.MainActivity">
+    tools:context=".lesson1.task2.view.MainActivity">
 
     <TextView
         android:id="@+id/tvMessage"

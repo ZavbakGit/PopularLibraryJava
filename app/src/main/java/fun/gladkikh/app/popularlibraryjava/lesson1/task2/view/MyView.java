@@ -1,4 +1,4 @@
-package fun.gladkikh.app.popularlibraryjava.task2.view;
+package fun.gladkikh.app.popularlibraryjava.lesson1.task2.view;
 
 
 import moxy.MvpView;

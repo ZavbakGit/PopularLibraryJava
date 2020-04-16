@@ -1,4 +1,4 @@
-package fun.gladkikh.app.popularlibraryjava.common.model;
+package fun.gladkikh.app.popularlibraryjava.lesson1.common.model;
 
 public class Model {
     private String message = "";

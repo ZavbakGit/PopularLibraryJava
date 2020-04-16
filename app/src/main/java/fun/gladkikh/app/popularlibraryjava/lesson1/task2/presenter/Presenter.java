@@ -1,9 +1,9 @@
-package fun.gladkikh.app.popularlibraryjava.task2.presenter;
+package fun.gladkikh.app.popularlibraryjava.lesson1.task2.presenter;
 
 
 
-import fun.gladkikh.app.popularlibraryjava.common.model.Model;
-import fun.gladkikh.app.popularlibraryjava.task2.view.MyView;
+import fun.gladkikh.app.popularlibraryjava.lesson1.common.model.Model;
+import fun.gladkikh.app.popularlibraryjava.lesson1.task2.view.MyView;
 import moxy.InjectViewState;
 import moxy.MvpPresenter;
 

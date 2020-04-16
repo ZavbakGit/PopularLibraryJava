@@ -1,4 +1,4 @@
-package fun.gladkikh.app.popularlibraryjava.task1.view;
+package fun.gladkikh.app.popularlibraryjava.lesson1.task2.view;
 
 import android.os.Bundle;
 import android.view.View;
@@ -6,18 +6,22 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
-import androidx.appcompat.app.AppCompatActivity;
+
 
 import fun.gladkikh.app.popularlibraryjava.R;
-import fun.gladkikh.app.popularlibraryjava.task1.presenter.Presenter;
+import fun.gladkikh.app.popularlibraryjava.lesson1.task2.presenter.Presenter;
+import moxy.MvpAppCompatActivity;
+import moxy.presenter.InjectPresenter;
 
-public class MainActivity extends AppCompatActivity implements MyView {
+public class MainActivity extends MvpAppCompatActivity implements MyView {
 
     private TextView tvMessage;
     private Button btGeneral;
     private EditText edMessage;
 
+    @InjectPresenter
     Presenter presenter;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,8 +30,6 @@ public class MainActivity extends AppCompatActivity implements MyView {
         tvMessage = findViewById(R.id.tvMessage);
         btGeneral = findViewById(R.id.btGeneral);
         edMessage = findViewById(R.id.edMessage);
-
-        presenter = new Presenter(this);
 
         btGeneral.setOnClickListener(new View.OnClickListener() {
             @Override
