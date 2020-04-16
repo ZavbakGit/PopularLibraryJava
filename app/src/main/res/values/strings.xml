@@ -2,4 +2,5 @@
     <string name="app_name">PopularLibraryJava</string>
     <string name="message">Message</string>
     <string name="click_me">Click me</string>
+    <string name="start">Start</string>
 </resources>
