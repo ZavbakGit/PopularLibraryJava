@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="fun.gladkikh.app.popularlibraryjava">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -15,9 +17,10 @@
         <activity android:name=".lesson1.task2.view.MainActivity" />
         <activity android:name=".lesson2.task1.MainActivity" />
         <activity android:name=".lesson2.task3.MainActivity" />
-
         <activity android:name=".lesson3.task1.MainActivity" />
-        <activity android:name=".lesson3.task2.MainActivity">
+        <activity android:name=".lesson3.task2.MainActivity" />
+        <activity android:name=".lesson4.task1.MainActivity" />
+        <activity android:name=".lesson4.task2.view.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
