@@ -5,7 +5,7 @@
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
-
+        android:name=".lesson8.App"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -26,7 +26,8 @@
         <activity android:name=".lesson6.nodi.NoDiActivity" />
         <activity android:name=".lesson6.di.DiActivityLesson6" />
         <activity android:name=".lesson6.dagger.DaggerActivityLesson6" />
-        <activity android:name=".lesson7.MainActivity7">
+        <activity android:name=".lesson7.MainActivity7" />
+        <activity android:name=".lesson8.MainActivity8">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
